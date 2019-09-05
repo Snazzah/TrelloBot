@@ -4,17 +4,17 @@
   "elevated": ["158049329150427136"],
   "redis": {
     "prefix": "trello:",
-		"host": "",
-		"port": 6379,
-		"password": ""
+    "host": "",
+    "port": 6379,
+    "password": ""
   },
-	"rethink": {
-		"user": "",
-		"password": "",
-		"host": "",
-		"port": 28015,
-		"database": "Trello"
-	},
+  "rethink": {
+    "user": "",
+    "password": "",
+    "host": "",
+    "port": 28015,
+    "database": "Trello"
+  },
   "discord": {
     "autoReconnect": true,
     "disableEveryone": true,
@@ -33,5 +33,7 @@
     "delay": 7500
   },
   "commands": "./Commands",
+  "icon_url": "",
+  "webhook_url": "",
   "color_scheme": 4365262
 }
